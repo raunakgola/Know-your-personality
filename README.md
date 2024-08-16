@@ -48,6 +48,10 @@ While traditional machine learning models like Random Forest and SVM offer solid
 The UI of the application is simple and user-friendly, allowing users to input text and receive predictions on their MBTI personality type. All images used in the UI are stored in the images folder.
 There is a sidebar having question and user just answer by clicking the button in terms of how much you agree with the question.
 
+## Model Architecture
+![Screenshot 2024-08-11 172752](https://github.com/user-attachments/assets/d6e8d24c-194f-4185-a283-7767ec74d1f1)
+
+
 ## Application
 1. Mental Health and Counseling
 Personality classification can also play a role in mental health and counseling. Counselors and therapists can use personality insights to better understand their clients and tailor their approaches to suit individual needs. This application can improve the effectiveness of counseling sessions and contribute to better mental health outcomes.
