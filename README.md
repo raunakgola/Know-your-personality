@@ -7,26 +7,33 @@ This project aims to classify personality types based on the MBTI (Myers-Briggs 
 * notebooks: Model_building_checkpoint.ipynb: Jupyter notebook for training and evaluating all machine learning models, including the ANN.
 * images/: Contains all the images used in the UI.
 ## How to Run
-1. Clone the Repository
 
-git clone https://github.com/raunakgola/Know-your-personality.git
+Usage
+-----
+
+### Running the Application
+
+1.  Clone the repository.
+
+    ```
+    git clone https://github.com/raunakgola/Know-your-personality.git
+    ```
 
 2. Install Dependencies
-Ensure you have Python 3.8+ and pip installed. Install the required libraries:
+*  Ensure you have Python 3.8+ and pip installed.
 
-pip install -r requirements.txt
+    
+3.  Install dependencies by running:
 
-3. Train the Models (Optional)
-If you want to retrain the models or experiment with different configurations, open the train_models.ipynb notebook:
+    ```
+    pip install -r Requirements.txt
+    ```
 
-jupyter notebook model_building_checkpoint.ipynb
-This notebook includes the code to train and evaluate various models, including the ANN.
+4.  Run the application with:
 
-4. Run the Application
-To start the web application, run:
-
-streamlit run app.py
-The app will be available at http://127.0.0.1:5000/ in your web browser.
+    ```
+    streamlit run App.py
+    ```
 
 ## Model Performance
 Several machine learning models were trained and evaluated for personality classification:
